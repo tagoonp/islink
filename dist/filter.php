@@ -105,28 +105,15 @@
           <span style="font-size: 1.3em; padding-left: 10px;">ช่วงเวลา</span><br>
           <span style=" padding-left: 10px;">ตั้งแต่วันที่ :</span>
           <div class="col-md-12">
-
               <div class="input-group date datepicker" data-date-autoclose="true" data-date-format="dd/mm/yyyy">
                 <input class="form-control" type="text" name="txtStartdate" id="txtStartdate" ><span class="input-group-addon"><i class="fa fa-calendar"></i></span></input>
               </div>
-              <!-- <div class="form-group">
-                <div class="col-md-12" style="padding: 0px;">
-                  <input class="form-control datetimepicker" placeholder="คลิ๊กเพื่อแสดงปฏิทิน" type="text" name="txtStartdate" id="txtStartdate">
-                </div>
-              </div> -->
           </div>
           <span style=" padding-left: 10px;">ถึงวันที่ :</span>
           <div class="col-md-12">
-              <div class="input-group date datepicker" data-date-autoclose="true" data-date-format="dd-mm-yyyy">
-                <input class="form-control" type="text" name="txtEnddate" id="txtEnddate"><span class="input-group-addon"><i class="fa fa-calendar"></i></span></input>
-              </div>
-
-              <!-- <div class="form-group">
-                <div class="col-md-12" style="padding: 0px;">
-                  <input class="form-control datetimepicker" placeholder="คลิ๊กเพื่อแสดงปฏิทิน" type="text" name="txtEnddate" id="txtEnddate">
-                </div>
-              </div> -->
-
+            <div class="input-group date datepicker" data-date-autoclose="true" data-date-format="dd/mm/yyyy">
+              <input class="form-control" type="text" name="txtEnddate" id="txtEnddate" ><span class="input-group-addon"><i class="fa fa-calendar"></i></span></input>
+            </div>
           </div>
           <span style="font-size: 1.3em; padding-left: 10px;">ฐานข้อมูล</span>
           <div class="form-group" style="padding-left: 10px; padding-top: 10px;">

@@ -26,7 +26,7 @@
     </div>
   </a>
 
-  <a href="#" class="link-b">
+  <!-- <a href="#" class="link-b">
     <div class="menu-item">
       <table width="100%" border="0" cellpadding="0" cellspacing="0">
         <tr>
@@ -39,7 +39,7 @@
         </tr>
       </table>
     </div>
-  </a>
+  </a> -->
 
   <a href="#" class="link-b">
     <div class="menu-item">

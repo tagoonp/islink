@@ -30,7 +30,7 @@ $title = $db->getTitle();
     <script type="text/javascript" src="js/map-index.js"></script>
     <script src="libraries/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" type="text/css" href="libraries/sweetalert/dist/sweetalert.css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" media="all" rel="stylesheet" type="text/css" />
+    <!-- <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" media="all" rel="stylesheet" type="text/css" /> -->
     <link href="libraries/seven7/stylesheets/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
     <link href="libraries/seven7/stylesheets/se7en-font.css" media="all" rel="stylesheet" type="text/css" />
     <link href="libraries/seven7/stylesheets/isotope.css" media="all" rel="stylesheet" type="text/css" />

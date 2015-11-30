@@ -4,8 +4,11 @@
       <td width="30">
         <a href="#" class="link-a"><i class="fa fa-bars" id="menu-icon"></i></a>
       </td>
+      <td width="30">
+        <a href="#" class="link-a"><i class="fa fa-filter" id="filter-icon"></i></a>
+      </td>
       <td>
-        <input type="text" name="name" value="" class="ms-inputsearch" placeholder="ค้นหาสถานที่เกิดเหตุ">
+        <input type="text" name="txtSearchplace" id="txtSearchplace" class="ms-inputsearch" placeholder="ค้นหาสถานที่เกิดเหตุ" style="width: 180px;">
       </td>
       <td width="20" align="left">
         <i class="fa fa-search" style="color: #7FB4E3; font-size: 1.0em; position: absolute; margin-top: -8px; "></i>

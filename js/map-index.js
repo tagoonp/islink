@@ -475,8 +475,17 @@ $(function(){
   $('#menu-icon').mouseover(function(){
     $('#filter-menu').show();
   });
+
   $('#menu-icon').mouseout(function(){
     $('#filter-menu').hide();
+  });
+
+  $('#filter-icon').mouseover(function(){
+    $('#filter-filter').show();
+  });
+
+  $('#filter-icon').mouseout(function(){
+    $('#filter-filter').hide();
   });
 
   $('#menu-icon').click(function(){
@@ -485,12 +494,21 @@ $(function(){
 
     // Set the options for the effect type chosen
     var options = { direction: "left" };
-
     // Set the duration (default: 400 milliseconds)
     var duration = 300;
     $('.left-menu').toggle(effect, options, duration);
     $('.cover-blur').show();
   });
+
+  $('#filter-icon').click(function(){
+    if($('#filter').css('display') != 'none'){
+      $('#filter').slideUp('fast');
+    }else{
+      $('#filter').slideDown('fast');
+    }
+
+  });
+
 
   $('.cover-blur').click(function(){
     $('#txtUsername').val('');
@@ -499,7 +517,6 @@ $(function(){
     $('.cover-blur').hide();
 
     if($('#loginDiv').css('display') != 'none'){
-      // $('#loginDiv').toggle('fade');
       $('#loginDiv').hide();
     }
 
@@ -551,17 +568,6 @@ $(function(){
     var duration = 300;
     $('.left-menu').toggle(effect, options, duration);
 
-  });
-
-  $('#filter-icon').mouseover(function(){
-    $('#filter-filter').show();
-  });
-  $('#filter-icon').mouseout(function(){
-    $('#filter-filter').hide();
-  });
-  $('#filter-icon').click(function(){
-    $('#filter-btn').hide();
-    $('#filter').slideDown('fast');
   });
 
   $('#hide-filter').click(function(){
