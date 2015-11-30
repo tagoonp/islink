@@ -1,0 +1,273 @@
+/*@import url(https://fonts.googleapis.com/css?family=Itim&subset=thai,latin);*/
+body, html{
+/*font-family: 'Itim', cursive;*/
+  font-family: tahoma;
+  margin: 0;
+  padding: 0;
+}
+
+.tambonfilter, .ampurfilter{
+  display:none;
+}
+
+
+
+#map-canvas{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: #000;
+  z-index: 1;
+}
+
+#filter{
+  position: absolute;
+  width: 290px;
+  /*height: 550px;*/
+  top: 60px;
+  left: 10px;
+  bottom: 30px;
+  background: #fff;
+  z-index: 999;
+  border: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #ccc;
+  /*display: none;*/
+  z-index: 997;
+  padding-bottom: 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#filter-btn{
+  position: absolute;
+  width: 290px;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  z-index: 999;
+  border: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #ccc;
+  z-index: 998;
+}
+
+#filter-menu{
+  position: absolute;
+  width: 29px;
+  height: 26px;
+  top: 55px;
+  left: 19px;
+  background: url(../../../images/menu.png);
+  z-index: 999;
+  border: none;
+  border-radius: 3px;
+  z-index: 999;
+  display:none;
+}
+
+#filter-filter{
+  position: absolute;
+  width: 47px;
+  height: 26px;
+  top: 55px;
+  left: 39px;
+  background: url(../../../images/filters.png);
+  z-index: 999;
+  border: none;
+  border-radius: 3px;
+  z-index: 999;
+  display:none;
+}
+
+/*----------------Login div--------------------*/
+
+#loginDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: -120px;
+    width: 360px;
+    height: 240px;
+    z-index: 9999;
+    background: #fff;
+    display:none;
+    border:none;
+    border-radius: 3px;
+}​
+
+.login-title{
+  padding: 10px;
+  padding-left: 15px;
+  color: #fff;
+  background: #
+}
+
+.ms-header-logo{
+  padding: 10px 0px 10px 0px;
+}
+
+.image-fix130{
+  min-width: 180px;
+}
+
+.ms-inputsearch{
+  position: absolute;
+  border:none;
+  margin-top: -12px;
+  width: 200px;
+  padding: 5px;
+  padding-left: 0px;
+  outline: none;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.left-menu{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  display: none;
+  width: 303px;
+  left: 0;
+  /*height: 100%;*/
+  bottom: 0;
+  background: #fff;
+  z-index: 9999;
+}
+
+.cover-blur{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: #000;
+  opacity: 0.5;
+  display: none;
+  z-index: 9998;
+}
+
+.filter-title{
+  font-size: 14px;
+}
+
+.shadow-1{
+-moz-box-shadow: 0 0 5px #ccc;
+-webkit-box-shadow: 0 0 5px #ccc;
+box-shadow: 0 0 5px #ccc;
+}
+
+.ms-header-text{
+  border: solid;
+  border-width: 0px 0px 0px 1px;
+  padding-left: 30px;
+  border-color: #ccc;
+  margin-top: 20px;
+}
+
+.ms-header-text > h1{
+  font-size: 34px;
+}
+
+.ms-header-text > h1 > small{
+  font-size: 20px;
+}
+
+.ms-staff-panel{
+  width: 100%;
+  border: solid;
+  border-width: 1px;
+  border-color: #dfdfdf;
+}
+
+.ms-staff-title{
+  padding: 5px 0px 5px 10px;;
+  background: #06c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.ms-staff-link{
+  padding: 5px 0px 5px 5px;
+  font-weight: bold;
+  border: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #dfdfdf;
+}
+
+.ms-staff-text{
+  font-size: 0.9em;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000;
+}
+
+.ms-staff-text > small{
+  color: #888;
+}
+
+/*Link css*/
+.link-a:link { color:#000; text-decoration:none}
+.link-a:visited {color: #000; text-decoration: none}
+.link-a:hover {color:#888;}
+
+.link-b:link { color:#888; text-decoration:none}
+.link-b:visited {color: #888; text-decoration: none}
+.link-b:hover {color:#06c;}
+
+/*-------------- CSS for Left menu -------------------*/
+.menu-title{
+  padding: 15px 10px 15px 20px;
+  font-size: 1.3em;
+  border: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ccc;
+}
+
+.menu-item-panel{
+  padding: 20px 10px 25px 15px;
+  font-size: 1.3em;
+  border: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ccc;
+}
+
+.menu-item{
+  padding: 5px 10px 5px 10px;
+  /*color: #888;*/
+}
+
+.menu-item-text{
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.pad0{
+  padding-left: 0px;
+}
+
+/*------------ Placehoder color -------------------*/
+::-webkit-input-placeholder {
+   color: #888;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #888;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #888;
+}
+
+:-ms-input-placeholder {
+   color: #888;
+}
